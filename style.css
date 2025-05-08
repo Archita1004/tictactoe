@@ -1,0 +1,78 @@
+body{
+background-color: rgb(223, 111, 205);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    border: 10px whitesmoke solid;
+    background-color: rgb(155, 100, 208);
+    cursor: pointer;
+    font-size: 140px;
+    font-weight: 600;
+    color: black;
+}
+.boxes:hover{
+    background-color: rgb(141, 78, 201);
+
+}
+.allbox{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+#head{
+    font-size: 80px;
+    text-align: center;
+}
+#mess,.design{
+    font-size:90px;
+    font-weight: 800;
+   
+    background-color: rgb(223, 111, 205)  ;
+    color: black;
+    border-radius: 10px;
+    padding: 8px;
+}
+.btn{
+    background-color: rgb(12, 108, 23);
+    color: aliceblue;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    border: 2px solid rgb(14, 120, 26);
+    border-radius:20px;
+    cursor: pointer;
+
+}
+.btn:hover{
+background-color:rgb(55, 193, 71) ;
+}
+.allbtn{
+    text-align: center;
+}
+.ngbtn{
+    visibility: hidden;
+}
+
+.mess-box{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+.hide{
+    font-size:90px;
+    font-weight: 800;
+   
+    background-color: rgb(223, 111, 205)  ;
+    color: black;
+    border-radius: 10px;
+    padding: 8px;
+}
